@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <title>Project 2.1 - Research Report</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Project 2.1 - Research Report</h1>
+
+    <p>Nyeri Adolphus</p>
+    <p>INF 6420 Web Development</p>
+    <p>13 June 2026</p>
+</header>
+
+<main>
+    <section>
+        <h2>Step 1 - Page Selection</h2>
+        <p>
+            The page selected for this assignment is the
+            <a href="https://clas.wayne.edu/ccj/grad/" target="_blank"> Master of Science in Criminal Justice </a> webpage.
+        </p>
+
+         <p>
+            I selected this page because I am interested in gaining insight into a field
+            closely related to my full-time job.
+        </p>
+        <p>
+            As someone who works in a police station, I recognize that there is only so much
+            knowledge that can be acquired through on-the-job experience. In many cases,
+            practices can become diluted over time as informal interpretations of policies and
+            procedures are passed from one employee to another.
+        </p>
+
+        <p>
+            A formal education in criminal justice can provide a more structured understanding
+            of the field and enhance one's ability to contribute effectively to law enforcement,
+            advocacy, and other areas within the criminal justice system.
+        </p>
+
+        <p>
+            According to the assignment criteria, the webpage contains all required structural
+            elements, including a header, footer, navigation area, main content area, lists,
+            and multiple heading levels.
+        </p>
+    </section>
+    <section>
+        <h2>Step 2 - Section-by-Section Layout Analysis</h2>
+
+        <article>
+            <h3>Site Header</h3>
+
+            <p>
+                The site header contains the Wayne State University name, login directory,
+                search bar, navigation links, and department branding.
+            </p>
+
+            <p>
+                I would identify this section using the
+                <code>&lt;header&gt;</code> element because it contains introductory
+                information, navigation, and search functionality.
+            </p>
+        </article>
+
+        <article>
+            <h3>Main Navigation</h3>
+
+            <p>
+                The navigation menu appears on the left side of the page and directs users
+                to undergraduate, graduate, and career outlook information.
+            </p>
+
+            <p>
+                This section would be marked with the
+                <code>&lt;nav&gt;</code> element because its purpose is navigation.
+            </p>
+
+            <nav>
+                <ul>
+                    <li>Undergraduate</li>
+                    <li>Graduate
+                        <ul>
+                            <li>Master of Science</li>
+                            <li>Master of Science and J.D.</li>
+                            <li>Chief Scholar's Program</li>
+                        </ul>
+                    </li>
+                    <li>Career Outlook</li>
+                </ul>
+            </nav>
+        </article>
+
+        <article>
+            <h3>Primary Content</h3>
+
+            <p>
+                The primary content begins with "Graduate Programs" and concludes with
+                the Forms and Resources sections.
+            </p>
+
+            <p>
+                This content would be marked using the
+                <code>&lt;main&gt;</code> element because it contains the primary
+                information users are seeking.
+            </p>
+        </article>
+
+        <article>
+            <h3>Page Footer</h3>
+
+            <p>
+                The footer contains contact information, faculty directories,
+                social media links, university policies, and copyright information.
+            </p>
+
+            <p>
+                This section would be marked using the
+                <code>&lt;footer&gt;</code> element because it provides supplementary
+                information about the organization.
+            </p>
+        </article>
+
+    </section>
+
+    <section>
+        <h2>Step 3 - Heading Hierarchy</h2>
+
+        <h1>Graduate Programs</h1>
+
+        <h2>Programs</h2>
+
+        <h3>Master of Science in Criminal Justice</h3>
+
+        <h3>Joint Master of Science in Criminal Justice and Juris Doctor</h3>
+
+        <h3>Chief Scholar's Program</h3>
+
+        <h2>Forms</h2>
+
+        <h2>Resources</h2>
+
+        <p>
+            The page visually suggests this hierarchy, although source code inspection
+            revealed that H3 elements were not used for the program headings.
+        </p>
+    </section>
+
+    <section>
+        <h2>Step 4 - Lists</h2>
+
+        <p>
+            The Forms and Resources sections are best represented as unordered lists
+            because they function as collections of links rather than sequential content.
+        </p>
+
+        <h3>Forms</h3>
+
+        <ul>
+            <li>Application Form</li>
+            <li>Graduate Funding Form</li>
+            <li>Program Requirements</li>
+        </ul>
+
+        <h3>Resources</h3>
+
+        <ul>
+            <li>Graduate Courses</li>
+            <li>Career Opportunities</li>
+            <li>Graduate Funding Opportunities</li>
+        </ul>
+
+    </section>
+
+    <section>
+        <h2>Step 5 - Link Analysis</h2>
+
+        <h3>Internal Links</h3>
+
+        <ul>
+            <li>Career Opportunities</li>
+            <li>Graduate Funding Opportunities</li>
+            <li>Graduate Courses</li>
+        </ul>
+
+        <p>
+            These links remain within the Wayne State University domain and connect
+            users to related program information.
+        </p>
+
+        <h3>External Links</h3>
+
+        <ul>
+            <li>Instagram</li>
+            <li>LinkedIn</li>
+            <li>Flickr</li>
+        </ul>
+
+        <p>
+            These links direct users to external websites and open in new browser tabs.
+        </p>
+
+    </section>
+
+    <section>
+        <h2>Step 7 - Accessibility Analysis</h2>
+
+        <p>
+            The webpage received a score of 9.8 out of 10 in the Web Accessibility
+            Evaluation Tool (WAVE).
+        </p>
+
+        <p>
+            No accessibility errors were reported, though seven alerts were identified,
+            including PDF links and the presence of <code>&lt;noscript&gt;</code>
+            elements.
+        </p>
+    </section>
+
+    <section>
+        <h2>Step 8 - HTML Validation</h2>
+
+        <p>
+            HTML validation returned two errors and four informational alerts.
+        </p>
+
+        <p>
+            One notable error involved an incorrect closing tag in the footer where an
+            <code>&lt;h3&gt;</code> element was closed with
+            <code>&lt;/h2&gt;</code>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Step 9 - HTML Summary</h2>
+
+        <p>
+            Overall, I found the Master of Science in Criminal Justice webpage to be
+            well-structured and easy to navigate.
+        </p>
+
+        <p>
+            The page makes effective use of semantic sections such as the header,
+            navigation menus, main content area, and footer.
+        </p>
+
+        <p>
+            The most significant structural issue was the inconsistent heading hierarchy,
+            particularly the absence of H3 headings within the main content despite the
+            visual presentation suggesting a clear hierarchy.
+        </p>
+
+        <p>
+            This issue could create confusion for screen reader users who rely on heading
+            structures to navigate content.
+        </p>
+
+        <p>
+            The most beneficial improvement would be implementing a more accurate and
+            consistent heading structure throughout the page to improve accessibility and
+            semantic organization.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Nyeri Adolphus - INF 6420 Web Development</p>
+</footer>
+
+</body>
+</html>
+</main>
