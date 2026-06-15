@@ -14,29 +14,35 @@
     <p>INF 6420 Web Development</p>
     <p>13 June 2026</p>
 </header>
-<nav>
-    Step 1 - Step 2 - Step 3 - Step 4 - Step 5 - Step 7 - Step 8 - Step 9
+<nav class="navbar">
+    <ul>
+        <li><a href="#pageselection">Page Selection</a></li>
+        <li><a href="#layoutanalysis">Layout Analysis</a></li>
+        <li><a href="#hierarchy">Heading Hierarchy</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#links">Link Analysis</a></li>
+        <li><a href="#wave">Accessibility Analysis</a></li>
+        <li><a href="#htmlval">HTML Validation</a></li>
+        <li><a href="#summary">HTML Summary</a></li>
+
+    </ul>
+    Page Selection - Step 2 - Step 3 - Step 4 - Step 5 - Step 7 - Step 8 - Step 9
 </nav>
 <main>
-    <section>
+    <section id="pageselection">
         <h2>Step 1 - Page Selection</h2>
+        <img src="images/gradcriminologybreadcrumb.png" alt="Breadcrumb navigation of the Wayne State University's Criminology and Criminal Justice Graduate Programs webpage">
         <p>
-            The page selected for this assignment is the
-            <a href="https://clas.wayne.edu/ccj/grad/" target="_blank">  Criminology and Criminal Justice Graduate Programs </a> webpage.
-        </p>
-<img src="images/gradcriminologybreadcrumb.png" alt="Breadcrumb navigation of the Wayne State University's Criminology and Criminal Justice Graduate Programs webpage">
-         <p>
-            I selected this page because of my interest in gaining insight into a field
+            The page selected for this assignment is the <a href="https://clas.wayne.edu/ccj/grad/" target="_blank">  Criminology and Criminal 
+            Justice Graduate Programs </a> webpage. I selected this page because of my interest in gaining insight into a field 
             closely related to my full-time job as a civilian employee working within law enforcement.
         </p>
         <p>
             As someone who works at a police station, I recognize that there is only so much
             knowledge that can be acquired through on-the-job experience. In many cases,
             practices can become diluted over time as informal interpretations of policies and
-            procedures are passed from one employee to another.
-        </p>
-
-        <p>
+            procedures are passed from one employee to another. 
+            
             A formal education in criminal justice can provide a more structured understanding
             of the field and enhance one's ability to contribute effectively to law enforcement,
             advocacy, and other areas within the criminal justice system.
@@ -48,21 +54,19 @@
             and multiple heading levels.
         </p>
     </section>
-    <section>
+    <section id="layoutanalysis">
         <h2>Step 2 - Section-by-Section Layout Analysis</h2>
 
         <article>
             <h3>Site Header</h3>
 <img src="images/wsugradcriminologyheader.png" alt="Screenshot of the Wayne State University's Criminology and Criminal Justice page header">
             <p>
-                The site header is similar to all WSU webpages, containing the name of the university, a log in directory, search bar, navigation links, and the Criminology and Criminal Justice program in a larger header than its parenting school, the College of Liberal Arts and Sciences.
-            </p>
-                
-            
+                The site header is similar to all WSU webpages, containing the name of the university, a log in directory,
+                search bar, navigation links, and the Criminology and Criminal Justice program in a larger header than its 
+                parenting school, the College of Liberal Arts and Sciences.
 
-            <p>
-                I would mark this section using the
-                <code>&lt;header&gt;</code> element due to its explanatory composition, containing main navigation tabs, searching capabilities as well as titling.
+                I would mark this section using the <code>&lt;header&gt;</code> element due to its explanatory 
+                composition, containing main navigation tabs, searching capabilities as well as titling.
 
             </p>
         </article>
@@ -71,92 +75,112 @@
             <h3>Main Navigation</h3>
 <img src="images/gradcriminologysidenav.png" alt="Screenshot of the navigation menu for the Wayne State University's Criminology and Criminal Justice department">
             <p>
-                The navigation menu for this page is nestled on the left of the page that can direct you to the pages for pursuing the program in an Undergraduate capacity and Graduate capacity, along with a Career outlook tab that provides insight to the outlook of one's career in the criminal justice field. 
+                The navigation menu for this page is nestled on the left of the page that can direct you to the pages for pursuing the program 
+                in an Undergraduate capacity and Graduate capacity, along with a Career outlook tab that provides insight to the outlook of one's
+                career in the criminal justice field. 
+               
+                The element that I would use to mark this section of the page would probably be the <code>&lt;nav&gt;</code> element. 
+                I think this element is the right choice for this section due to its direct relation to the main content of the page, 
+                and its purpose. Seen in the photograph above, Graduate is bolded, indicating the selected page that I am doing for 
+                this assignment. The Graduate page for Criminology and Criminal Justice has three different programs that can be 
+                navigated to, and these programs are also presented and listed in the body of the page as well. 
             </p>
-
-            <p>
-                The element that I would use to mark this section of the page would probably be the
-                <code>&lt;nav&gt;</code> element. I think this element is the right choice for this section due to its direct relation to the main content of the page, and its purpose. Seen in the photograph above, Graduate is bolded, indicating the selected page that I am doing for this assignment. The Graduate page for Criminology and Criminal Justice has three different programs that can be navigated to, and these programs are also presented and listed in the body of the page as well. 
-
-            </p>
+<img src="images/gradcriminologyprograms.png" alt="Screenshot of the three different graduate-level programs in the Criminology and Criminal Justice department">
         </article>
-<img src="images/gradcriminologyprograms.png"
+
         <article>
             <h3>Primary Content</h3>
 
             <p>
-                The primary content of the page begins with the heading "Graduate Programs" and concludes with the section containing links to forms and resources. Because this content provides the main information about the program, including its focus as a graduate-level degree and available tuition funding opportunities, I would identify this section using the <code>&lt;main&gt;</code> element. The <code>&lt;main&gt;</code> tag is appropriate because it contains the primary content of the webpage and represents the information that is most relevant to users visiting the page.
+                The primary content of the page begins with the heading "Graduate Programs" and concludes with the section containing links to 
+                forms and resources. Because this content provides the main information about the program, including its focus as a graduate-
+                level degree and available tuition funding opportunities, I would identify this section using the <code>&lt;main&gt;</code> 
+                element. The <code>&lt;main&gt;</code> tag is appropriate because it contains the primary content of the webpage and 
+                represents the information that is most relevant to users visiting the page.
 
             </p>
+<img src="images/gradcriminologymain.png" alt="Screenshot of the main body of text on the Graduate programs page for Wayne State University's Criminology and Criminal Justice departmewnt">
         </article>
 
         <article>
             <h3>Page Footer</h3>
+<img src="images/gradcriminologyfooter.png" alt="Screenshot of the footer of the Graduate programs page for Wayne State University's Criminology and Criminal Justice departmewnt">
 
             <p>
                 The footer contains contact information, faculty directories,
                 social media links, university policies, and copyright information.
-            </p>
-
-            <p>
+            
                 This section would be marked using the
-                <code>&lt;footer&gt;</code> element because it provides supplementary
-                information about the organization.
+                <code>&lt;footer&gt;</code> element because because it contains supplementary 
+                information about the organization, including contact details, links to privacy 
+                and university policies, and copyright information. These are all common 
+                characteristics of content typically found within a webpage footer.
+
             </p>
         </article>
 
     </section>
 
-    <section>
+    <section id="hierarchy">
         <h2>Step 3 - Heading Hierarchy</h2>
-
-        <h1>Graduate Programs</h1>
-
-        <h2>Programs</h2>
-
-        <h3>Master of Science in Criminal Justice</h3>
-
-        <h3>Joint Master of Science in Criminal Justice and Juris Doctor</h3>
-
-        <h3>Chief Scholar's Program</h3>
-
-        <h2>Forms</h2>
-
-        <h2>Resources</h2>
-
         <p>
-            The page visually suggests this hierarchy, although source code inspection
-            revealed that H3 elements were not used for the program headings.
+            The visible headings on the main content of the page, from top to bottom, are 
+            "Graduate Programs," "Programs," "Forms," "Resources," "Master of Science in Criminal Justice," 
+            "Joint Master of Science in Criminal Justice and Juris Doctor," and "Chief Scholar's Program."
+
+            I would assign the <code>&lt;h1&gt;</code> heading level to "Graduate Programs" because 
+            it is the first, largest, and most prominent heading on the page. It clearly identifies the 
+            overall topic and purpose of the content.
+
+            The headings "Programs," "Forms," and "Resources" would be assigned as <code>&lt;h2&gt;</code> elements. 
+            These headings represent major subsections of the page and organize the content into distinct 
+            categories, making them subordinate to the primary page heading.
+
+            I would assign <code>&lt;h3&gt;</code> elements to "Master of Science in Criminal Justice," 
+            "Joint Master of Science in Criminal Justice and Juris Doctor," and "Chief Scholar's Program." 
+            These headings identify specific graduate programs within the broader "Programs" section and serve 
+            as navigational links to additional pages. As such, they logically fall under the <code>&lt;h2&gt;</code> heading hierarchy.
+
+            However, based on the visual layout of these headings, which appear in a three-column format, I initially
+            suspected that the developers may not have implemented them as H3 elements. After inspecting the page source, 
+            I confirmed that no H3 elements are present within the main content section of the page. While the visual structure 
+            suggests a hierarchical relationship that would support the use of H3 headings, the developers appear to have achieved 
+            this layout through other HTML elements and CSS styling.
+            
+            Furthermore, the only example of an H3 element I was able to identify appears in the page footer. 
+            The heading "College of Liberal Arts and Sciences" is marked as an H3 and is displayed at a slightly 
+            smaller size than the H2 heading "Department of Criminology and Criminal Justice." Both headings are 
+            styled in the same gold color, but their differing sizes reflect the hierarchy established by the heading levels.
+<img src="images/gradcriminologyh3.png" alt="Screenshot of tier 3 heading located on footer of page">
         </p>
     </section>
 
-    <section>
+    <section id="lists">
         <h2>Step 4 - Lists</h2>
-
+<img src="images/gradcriminologylists.png" alt="Screenshot of bulleted list example present on the bottom of main text of page">
         <p>
-            The Forms and Resources sections are best represented as unordered lists
-            because they function as collections of links rather than sequential content.
-        </p>
+            The "Forms" and "Resources" sections near the end of the page are the most obvious examples of lists 
+            because their content is displayed with bullet points. However, the navigation menu in the page header 
+            and the program navigation menu within the main content area also function as lists. All of these examples 
+            would be considered unordered lists <code>&lt;ul&gt;</code> because the items do not need to be presented in a specific sequence.
+            
+            When examining the "Forms" and "Resources" sections, my initial thought was that they could be marked up as <code>&lt;dl&gt;</code>,
+            or description lists since they contain different types of forms and resources. However, these sections function more as directories 
+            of links than as terms paired with descriptions. Because each item links to either a PDF document or another page within the website, 
+            using unordered lists <code>&lt;ul&gt;</code> would be more appropriate.
 
-        <h3>Forms</h3>
-
-        <ul>
-            <li>Application Form</li>
-            <li>Graduate Funding Form</li>
-            <li>Program Requirements</li>
-        </ul>
-
-        <h3>Resources</h3>
-
-        <ul>
-            <li>Graduate Courses</li>
-            <li>Career Opportunities</li>
-            <li>Graduate Funding Opportunities</li>
-        </ul>
+            The header navigation menu, which includes links such as "Admissions," "Programs," "For Students," "Research," "People," "About," and "News," 
+            would also be marked up as an unordered list. Although the items are displayed horizontally and do not have visible bullet points, this 
+            appearance is likely the result of CSS styling rather than a different HTML structure.
+            
+            Similarly, the navigation menu within the main content area would be an unordered list. Since the page being viewed focuses 
+            on graduate programs, the links for "Master of Science," "Master of Science and J.D.," and "Chief Scholar's Program" appear 
+            as items nested within the broader "Graduate" category. This category exists alongside other navigation items such as "Undergraduate" 
+            and "Career Outlook," making a nested unordered list structure the most logical markup choice.
 
     </section>
 
-    <section>
+    <section id="Links">
         <h2>Step 5 - Link Analysis</h2>
 
         <h3>Internal Links</h3>
@@ -168,82 +192,75 @@
         </ul>
 
         <p>
-            These links remain within the Wayne State University domain and connect
-            users to related program information.
+            Three examples of internal links that remain within the Wayne State University domain can be found within the body of the page, 
+            or what would likely be contained within the <main> element. These links are visibly underlined and hyperlinked as 
+            "Career Opportunities," "Graduate Funding Opportunities," and "Graduate Courses."
+
+        </p>
+        <p>
+            Selecting either "Career Opportunities" or "Graduate Funding Opportunities" directs the user to related content within the 
+            Wayne State University website. 
+
+<img src="images/gradcriminologycareeroplink.png" alt="Screenshot of hyperlinked Career Opportunities page">
+<img src="images/gradcriminologyfundinglink.png" alt="Screenshot of hyperlinked Graduate Funding Opportunities page">
+
+            The "Graduate Courses" link opens in a new browser tab, but it still remains within the 
+            wayne.edu domain. This behavior may be due to the page's relationship to a broader academic catalog rather than the specific 
+            program page itself. Upon visiting the link, it becomes apparent that the page is part of the College of Liberal Arts and 
+            Sciences Graduate Bulletin, which contains a larger collection of graduate course information and academic resources.
+
+<img src="images/gradcriminologycourseslink.png" alt="Screenshot of hyperlinked page of graduate-level courses in the Criminology and Criminal Justice department">
+
         </p>
 
         <h3>External Links</h3>
-
-        <ul>
-            <li>Instagram</li>
-            <li>LinkedIn</li>
-            <li>Flickr</li>
-        </ul>
-
+<img src="images/wsuccjinstagram.png" alt="Screenshot of the Instagram icon for Wayne State University's Criminology and Criminal Justice page">
+<img src="images/wsuccjlinkedin.png" alt="Screenshot of the LinkedIn icon for Wayne State University's Criminology and Criminal Justice page">
+<img src="images/wsuccjflickr.png" alt="Screenshot of the Flickr icon for Wayne State University's Criminology and Criminal Justice page">
         <p>
-            These links direct users to external websites and open in new browser tabs.
+             Three examples of external links can be found in the page footer. The social media links for 
+            Instagram, LinkedIn, and Flickr redirect users to websites outside of the Wayne State University domain and open in new browser tabs. 
+
         </p>
 
     </section>
 
-    <section>
+    <section id="wave">
         <h2>Step 7 - Accessibility Analysis</h2>
-
+<img src="images/gradcriminologywaveresults.png" alt="Screenshot of the results of the Criminology and Criminal Justice Graduate Programs page when entered into WAVE">
         <p>
-            The webpage received a score of 9.8 out of 10 in the Web Accessibility
-            Evaluation Tool (WAVE).
+            Entering the webpage's URL into the <a href="https://wave.webaim.org/report#/https://clas.wayne.edu/ccj/programs/grad" target="_blank"> Web Accessibility Evaluation (WAVE) Tool</a> returned an output score of 9.8 out of 10 
+            with no errors, but 7 alerts, 5 of which inform me of PDF files placed on the page, and the other two that show <code>&lt;noscript&gt;</code> elements 
+            which are placed after the header and footer of the page.
+
         </p>
 
-        <p>
-            No accessibility errors were reported, though seven alerts were identified,
-            including PDF links and the presence of <code>&lt;noscript&gt;</code>
-            elements.
-        </p>
     </section>
 
-    <section>
+    <section id="htmlval">
         <h2>Step 8 - HTML Validation</h2>
-
+<img src="images/gradcriminologyhtmlvalidateresults.png" alt="Screenshot of the results of the Criminology and Criminal Justice Graduate Programs page when entered into the HTML validator">
         <p>
-            HTML validation returned two errors and four informational alerts.
-        </p>
-
-        <p>
-            One notable error involved an incorrect closing tag in the footer where an
-            <code>&lt;h3&gt;</code> element was closed with
-            <code>&lt;/h2&gt;</code>.
+         Entering the same link into the <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fclas.wayne.edu%2Fccj%2Fprograms%2Fgrad&checkerrorpages=yes" target="_blank"> HTML Validator</a> returned an evaluation
+         with two errors and four informational alerts. While I am unfamiliar with the first error regarding the <code>&lt;aria-hidden&gt;</code> attribute,
+         I did notice the second error with the end tag of </h2> to attempt to close the H3 heading "College of Liberal Sciences" in the footer.
+         The developer of the page could go back and enter the correct closing tag of <code>&lt;h3&gt;</code> instead of <code>&lt;/h2&gt;</code>.
         </p>
     </section>
 
-    <section>
+    <section id="summary">
         <h2>Step 9 - HTML Summary</h2>
 
         <p>
-            Overall, I found the Master of Science in Criminal Justice webpage to be
-            well-structured and easy to navigate.
-        </p>
-
-        <p>
-            The page makes effective use of semantic sections such as the header,
-            navigation menus, main content area, and footer.
-        </p>
-
-        <p>
-            The most significant structural issue was the inconsistent heading hierarchy,
-            particularly the absence of H3 headings within the main content despite the
-            visual presentation suggesting a clear hierarchy.
-        </p>
-
-        <p>
-            This issue could create confusion for screen reader users who rely on heading
-            structures to navigate content.
-        </p>
-
-        <p>
-            The most beneficial improvement would be implementing a more accurate and
-            consistent heading structure throughout the page to improve accessibility and
-            semantic organization.
-        </p>
+           Overall, I found the Master of Science in Criminal Justice webpage to be well-structured and easy to navigate. 
+           The page makes effective use of major semantic sections, including a header, navigation menus, main content area, and footer,
+           which helps users locate information efficiently. The most significant structural issue I identified was the inconsistent heading
+           hierarchy, particularly the absence of H3 headings within the main content despite the visual presentation suggesting a clear
+           hierarchy of graduate program options. This issue could create some confusion for screen reader users who rely on heading
+           structures to navigate content. Additionally, the HTML validation error involving the incorrect closing tag for the footer
+           heading should be corrected. If I could recommend one improvement, it would be implementing a more accurate and consistent
+           heading structure throughout the page, as this would improve both accessibility and semantic organization while better
+           reflecting the visual layout of the content.
     </section>
 
 </main>
@@ -254,4 +271,3 @@
 
 </body>
 </html>
-</main>
