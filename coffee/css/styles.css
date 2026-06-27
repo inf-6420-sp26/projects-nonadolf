@@ -1,0 +1,78 @@
+.container, .motto {
+    font-family: 'Raleway', Raleway, light;
+   
+    
+}
+.motto {
+    font-style: italic;
+    
+}
+
+
+header {
+    background-color: aqua;
+    background-image: url('../images/paul-gilmore-145802-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-family: 'Raleway', Raleway, lighter;
+    color: white
+}
+
+h1 {
+    
+    font-weight: 400;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+h2 { 
+   font-weight: 400;
+   font-size: 25px;
+   padding-top: 10px;
+   padding-bottom: 10px; 
+ }
+
+p, dl {
+    font-family: 'Nunito Sans', Nunito, monospace;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h1, h2, p, dl {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+dt {
+    font-weight:bolder;
+}
+h1, h2 {
+   
+}
+.menu {
+    background-color: #F0F0F0;
+    padding-top: 10px;
+}
+
+main {
+    background-color: #E0E0E0;
+}
+
+footer {
+    background-color: #3E1305;
+    color: white
+}
+
+a { color: #3E1305;
+}
+path {
+    fill: white
+}
+
+img {
+    justify-content: flex-end;
+    float: right;
+}
