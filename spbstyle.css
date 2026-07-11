@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(150, 182, 161);
+     }
+
+h1, h2, h3, .motto, p, dl, form{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+header {
+    margin: 0;
+    background-size: cover; 
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #c3f4f4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+dt {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+dd {
+    padding-bottom: 3px;
+}
+
+
+nav { 
+    background-color: antiquewhite;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: center; 
+}
+
+img {
+    justify-content: flex-end; }
+
+a, nav a {
+    text-decoration: none;
+    color: rgb(24, 42, 32)
+}
+form{
+    background-color: rgb(245, 241, 229);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+form div {
+    padding-block: 10px;
+}
+footer {
+    background-color:rgb(17, 26, 56);
+    color:bisque;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end ;
+}
