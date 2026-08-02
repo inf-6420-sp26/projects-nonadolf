@@ -1,4 +1,4 @@
-const planData = [
+export const planData = [
     {
         plan: "Bronze",
         price: "$39.99",
